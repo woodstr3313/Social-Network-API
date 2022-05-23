@@ -10,7 +10,7 @@ const getAllUsers = async (req, res) => {
 };
 
 // GET ONE USER WITH ID
-const getUserByID = async (req, res) => {
+const getUserById = async (req, res) => {
   const { id } = req.params;
   const user = await User.findOne({ _id: id });
   if (!user) {
@@ -79,7 +79,7 @@ const removeFriend = async (req, res) => {
 
 module.exports = {
   getAllUsers,
-  getUserByID,
+  getUserById,
   createUser,
   updateUser,
   deleteUser,
