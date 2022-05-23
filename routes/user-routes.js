@@ -10,7 +10,7 @@ const {
 } = require("../controllers/user-controller");
 
 // API USERS ID DELETEUSER
-router.route("./id").get(getUserById).put(updateUser).delete(deleteUser);
+router.route("/:id").get(getUserById).put(updateUser).delete(deleteUser);
 
 // API USERS USERID FRIENDS FRIENDS ID REMOVEFRIEND
 router.route("/:userId/friends/:friendId").post(addFriend).delete(removeFriend);

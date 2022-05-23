@@ -58,7 +58,7 @@ const addFriend = async (req, res) => {
   const { userId, friendId } = req.params;
   const user = await User.findOneAndUpdate(
     { _id: userId },
-    { $addToSet: { freinds: friendId } },
+    { $addToSet: { friends: friendId } },
     { runValidators: true }
   );
   res.json(user);

@@ -23,7 +23,7 @@ const getThoughtById = async (req, res) => {
 const addThought = async (req, res) => {
   const { userId } = req.params;
   const thought = await Thought.create({ ...req.body });
-  const user = await Uster.findOneAndUpdate(
+  const user = await User.findOneAndUpdate(
     { _id: userId },
     { $push: { thoughts: thought._id } },
     { new: true }
