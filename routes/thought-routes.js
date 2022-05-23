@@ -1,14 +1,14 @@
 const router = require("express").Router();
 const {
-    getAllThoughts,
-    addThought,
-    getThoughtById,
-    updateThought,
-    removeThought,
-    addReaction,
-    removeReaction,
+  getAllThoughts,
+  addThought,
+  getThoughtById,
+  updateThought,
+  removeThought,
+  addReaction,
+  removeReaction,
 } = require("../controllers/thought-controller");
-const {route} = require("./user-routes");
+const { route } = require("./user-routes");
 
 // API THOUGHTS GET
 router.route("/").get(getAllThoughts);
