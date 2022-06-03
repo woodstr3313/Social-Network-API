@@ -31,10 +31,11 @@
   ![In Insomnia, the user tests “Get All Users”.](./Assets/Get%20All%20Users.png)
 
    ![In Insomnia, the user tests “Update User”.](./Assets/Update%20User.png)
-  Walkthrough video. 
   
-  ![Walkthrough Video](https://drive.google.com/file/d/1doaTId7X57IziRMVFhRYwANmQsCLvzR_/view)
-  ![Walkthrough Video for Reactions](https://drive.google.com/file/d/117dsIU2aKa0GRuse002QpTbMAyf_se_x/view)
+  
+  Walkthrough video: https://drive.google.com/file/d/1doaTId7X57IziRMVFhRYwANmQsCLvzR_/view
+  
+  Walkthrough Video for Reactions: https://drive.google.com/file/d/117dsIU2aKa0GRuse002QpTbMAyf_se_x/view
 
 ## License
 ![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)
